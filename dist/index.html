@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class="text-[15px]">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Generator</title>
+    <link rel="stylesheet" href="./output.css">
+    <!-- <script src="https://kit.fontawesome.com/8ac4ef4386.js" crossorigin="anonymous"></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@700&display=swap" rel="stylesheet">
+
+    
+</head>
+<body class="bg-[#f2f2f7]"  >
+    <div class="flex justify-between shadow-md px-7 py-3 tracking-[0.09rem]">
+        <h1 class="text-[2rem] font-semibold font-manto" >QR Generator</h1>
+        <!-- <div class="hidden">
+            <i class="fa-regular fa-sun fa-2xl"></i>
+        </div>
+        <div>
+            <i class="fa-regular fa-moon fa-2xl"></i>
+        </div> -->
+
+    </div>
+    <div class=" for_flex flex justify-center mt-[25%]  
+    md:mt-[7%]">
+        <div class="bg-white py-10 px-7 main-con rounded-md md:w-[30vw] w-[88vw] ">
+                <h4 class=" font-semibold  text-left text-[1.15rem] md:text-[1.2rem] md:text-2xl">Enter your Text or Website URL</h4>
+                <input type="text" name="" id="" class="rounded-sm text-[1rem] my-5 border-2 outline-none  w-[100%] py-3 px-3 " placeholder="Paste website link here">  
+            <!-- </div> -->
+            
+            
+            <div class="flex  justify-center  " id="imgDiv">
+                
+                <img class=" size-40 mb-5 hidden" id="imgTag" alt="" src="">
+        
+            </div>
+            <button id="button" class="border hover:scale-95 duration-300 relative group cursor-pointer text-sky-50  overflow-hidden h-16 w-full rounded-md bg-sky-200 p-2 flex justify-center items-center font-extrabold text-lg">
+
+                <div class="absolute right-32 -top-4  group-hover:top-1 group-hover:right-2 z-10 w-40 h-40 rounded-full group-hover:scale-150 duration-500 bg-sky-900"></div>
+                <div class="absolute right-2 -top-4  group-hover:top-1 group-hover:right-2 z-10 w-32 h-32 rounded-full group-hover:scale-150  duration-500 bg-sky-800"></div>
+                <div class="absolute -right-12 top-4 group-hover:top-1 group-hover:right-2 z-10 w-24 h-24 rounded-full group-hover:scale-150  duration-500 bg-sky-700"></div>
+                <div class="absolute right-20 -top-4 group-hover:top-1 group-hover:right-2 z-10 w-16 h-16 rounded-full group-hover:scale-150  duration-500 bg-sky-600"></div>
+                <p class="z-10">Generate</p>
+            </button>
+        </div>
+    </div>
+    
+    
+
+</body>
+<script src="script.js"></script>
+</html>
